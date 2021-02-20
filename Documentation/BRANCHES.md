@@ -11,7 +11,7 @@ Show difference between tips of both branches
 
 Show difference between last common ancestor of _branchA_ and _branchB_ and tip of brancb
 
-GOTCHA: Note that the range operators act differently when using git log. Don't get caught out.
+GOTCHA: Note that the range operators act differently when using git log. Don't get caught out!
 ### BRANCH PROTECTIONS
 
 1. Block delete and force merge actions on a branch
