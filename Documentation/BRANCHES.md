@@ -17,3 +17,7 @@ Show difference between last common ancestor of branchA and branchB and tip of b
 3. Require pull request reviews from one or more reviewers
 4. Require a code owner review
 5. Require a signed commit to ensure commit is signed and verified by a trusted contributer
+
+### TIPS
+
+Always fetch and merge origin/main with local/main and then rebase on your feature branch immediately before pushing your feature to origin and raising a pull request
