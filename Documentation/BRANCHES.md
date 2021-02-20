@@ -1,6 +1,6 @@
-### BRANCHES
+# BRANCHES
 
-# BRANCH PROTECTIONS
+### BRANCH PROTECTIONS
 
 1. Block delete and force merge actions on a branch
 2. Require status checks (CI actions) to pass to allow a merge
