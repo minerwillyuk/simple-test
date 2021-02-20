@@ -1,5 +1,13 @@
 # BRANCHES
+### COMPARING BRANCHES
 
+    >git diff branchA..branchB
+
+Show difference between tips of both branches
+
+    >git diff branchA...branchB
+
+Show difference between last common ancestor of branchA and branchB and tip of brancb
 ### BRANCH PROTECTIONS
 
 1. Block delete and force merge actions on a branch
