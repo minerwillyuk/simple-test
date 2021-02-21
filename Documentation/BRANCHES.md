@@ -2,13 +2,17 @@
 
 ### COMPARING BRANCHES
 
+Range operators (.. and ...) are used when compare branches using diffing.
+
     >git diff branchA..branchB
 
 Show difference between tips of both branches
 
     >git diff branchA...branchB
 
-Show difference between last common ancestor of branchA and branchB and tip of brancb
+Show difference between last common ancestor of _branchA_ and _branchB_ and tip of brancb
+
+GOTCHA: Note that the range operators act differently when using git log. Don't get caught out!
 
 ### BRANCH PROTECTIONS
 
