@@ -13,3 +13,12 @@ A Draft request cannot be merged until the _Draft_ status is removed. Review req
 ### REVIEWS
 
 Request that one or more contributers review your code prior to a pull request being merged. In fact anyone with _read_ permissions can review your changes and submit a comment & status. 
+
+Status options:
+* Comment
+* Approve
+* Request changes
+
+If the repository owner or a contributor with admin or write permissions selects _Request changes_, then the pull request is blocked until that person approves the changes.
+
+A respoitory owner or admin can overrule _request changes_ (rejected) pull requests and go ahead and force a merge.  Useful is a reviewer is unavailable or the owner/admin disagrees with the reviewers objection.
