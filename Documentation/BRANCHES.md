@@ -1,5 +1,4 @@
 # WORKING WITH BRANCHES
-
 ### COMPARING BRANCHES
 
 Range operators (.. and ...) are used when compare branches using diffing.
