@@ -21,4 +21,8 @@ Status options:
 
 If the repository owner or a contributor with admin or write permissions selects _Request changes_, then the pull request is blocked until that person approves the changes.
 
-A respoitory owner or admin can overrule _request changes_ (rejected) pull requests and go ahead and force a merge.  Useful is a reviewer is unavailable or the owner/admin disagrees with the reviewers objection.
+A respoitory owner or admin can overrule _request changes_ (rejected) pull requests and go ahead and force a merge. Useful if a reviewer is unavailable or the owner/admin disagrees with the reviewers objection.
+
+*Enforcing Reviews*
+
+Reviews can be enforced for a branch or set of branches matching a _fnmatch_ syntax pattern. We can enforce 1+ approved reviews to allow a branch to be merged. Approvers can be allocated per pull request and/or a CODowner file can specifiy code owners for all or part of a repository who will be automatically contacted for a review on a pull request being raised. 
