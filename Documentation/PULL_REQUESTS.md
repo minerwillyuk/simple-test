@@ -16,7 +16,7 @@ A Draft request cannot be merged until the _Draft_ status is removed. Review req
 
 Request that one or more contributers review your code prior to a pull request being merged. In fact anyone with _read_ permissions can review your changes.
 
-Click on the Changes Files to view which files have been added or changes. You can comment on individual lines or blocks of code. You can even add code suggestions.
+Click on the _Changed Files_ tab to view which files have been added or changed. You can comment on individual lines or blocks of code, and even add code suggestions.
 
 When done, you can check your code changes in if you have administrator or write permissions. Commits can be per change or batched.
 
