@@ -24,3 +24,5 @@ GOTCHA: Note that the range operators act differently when using git log. Don't 
 ### TIPS
 
 Always fetch and merge origin/main with local/main and then rebase on your feature branch immediately before pushing your feature to origin and raising a pull request
+
+Delete a feature branch when merged. Avoid using long running branches for features.
