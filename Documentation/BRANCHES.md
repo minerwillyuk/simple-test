@@ -28,3 +28,4 @@ Always fetch and merge origin/main with local/main and then rebase on your featu
 
 Delete a feature branch when merged. Avoid using long running branches for features.
 
+Yadda yadda...
